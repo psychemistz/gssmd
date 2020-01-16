@@ -7,6 +7,7 @@ In the high-throughput screening (HTS) campaigns, the Z'-factor and strictly sta
 
 ## Contact
 R version implementation, Seongyong Park <psychemistz@gmail.com> 
+
 Matlab version implementation, Shujaat Khan <shujaat123@gmail.com>
 
 ## Acknowledgement
