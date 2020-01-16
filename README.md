@@ -1,4 +1,4 @@
-# GSSMD, Generalized Strictly Standardized Mean Difference
+# GSSMD
 ## Title
 GSSMD: New metric for robust and interpretable assay quality assessment and hit selection
 
