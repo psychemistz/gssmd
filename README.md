@@ -11,4 +11,4 @@ R version implementation, Seongyong Park <psychemistz@gmail.com>
 Matlab version implementation, Shujaat Khan <shujaat123@gmail.com>
 
 ## Acknowledgement
-We thanks Alfonso Rodriguez-Molares <alfonso.r.molares@ntnu.no> who shared matlab implementation of GCNR that is similar work performed in ultra sound image quality assessment. 
+We thank Alfonso Rodriguez-Molares <alfonso.r.molares@ntnu.no> for sharing a matlab implementation of GCNR, a similar task performed in ultra-sound image quality assessment.
