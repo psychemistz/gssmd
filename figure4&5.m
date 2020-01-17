@@ -49,6 +49,13 @@ hold off
 axis([-50 50 -0.2 1])
 %legend("GSSMD0","GSSMD1", "GSSMD3", "GSSMD5", "GSSMD10", "GSSMD20", "GSSMD30", 'Location', 'northwest')
 
+% scaled plot
+plot(measured_SNR, scaledata(GSSMD_all(1,:), 0, 1), 'b')
+hold on
+plot(measured_SNR, scaledata(SSMD_all(1,:), 0, 1), 'r')
+hold off
+axis([-50 50 0 1])
+
 % save results
 csvwrite("GSSMD.csv", GSSMD_all);
 csvwrite("SSMD.csv", SSMD_all);
