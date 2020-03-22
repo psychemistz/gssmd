@@ -35,7 +35,7 @@ qc.measure <- function(target, background, type = c("zpfactor", "ssmd", "robust_
   } else if (type == "pgssmd"){
     library(fitdistrplus)
     x <- range(min(target, background), max(target, background))
-    x <- seq(x[1], x[2], length.out=sqrt(nsample))
+    x <- seq(x[1], x[2], length.out=nbins)
     fit_b <- fitdist(background, "norm")
     fit_t <- fitdist(target, "norm")
     pd_b <- pnorm(x, fit_b$estimate[1], fit_b$estimate[2])
